@@ -7,3 +7,18 @@
 //   }
 //
 // }
+
+@mixin img($height, $border){
+
+  img {
+    height: $height;
+    border: $border;
+  }
+}
+
+@mixin boom($font-size, $color){
+  .boom{
+    font-size: $font-size;
+    color: $color;
+  }
+}

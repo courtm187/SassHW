@@ -42,11 +42,28 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-body {
-  background-color: lightgreen; }
+.boom {
+  font-size: 20px;
+  color: purple; }
+
+img {
+  height: 145px;
+  border: 3px solid pink; }
 
 body {
   background-color: lightgreen; }
+
+p {
+  color: red;
+  font-size: 30px;
+  font-weight: bold; }
+
+body {
+  background-color: lightgreen; }
+
+div a:hover {
+  font-size: 25px;
+  color: white; }
 
 .logo {
   width: 50%;

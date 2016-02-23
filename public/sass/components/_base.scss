@@ -46,6 +46,9 @@ table {
 }
 
 
+@include boom(20px, purple);
+@include img(145px,3px solid pink);
+
 
 //using the $ sign makes reusable variables
 $lg: lightgreen;
@@ -53,22 +56,32 @@ body {
   background-color: $lg;
 }
 
-// @include divs(200px, 200px, 1px solid green);
-//
-// %standardStyle {
-//   border: 1px solid red;
-//   height: 200px;
-//   width: 200px;
-// }
-//
-// .spanClass{
-//   @extend %standardStyle;
-// }
+
+%myStylez{
+  color: red;
+  font-size:30px;
+  font-weight: bold;
+}
+
+p {
+  @extend %myStylez;
+}
 
 body {
   background-color: lightgreen; }
 
+div{
 
+a {
+
+  &:hover{
+    font-size: 25px;
+    color: white;
+  }
+
+}
+
+}
 
 .logo {
   width: 50%;
